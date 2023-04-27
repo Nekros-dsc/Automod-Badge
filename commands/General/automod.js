@@ -7,13 +7,14 @@ module.exports = {
 	description: "badge automode",
 	usage: "automod",
 	examples: [],
-	run: async (funouille, message, args, prefix) => {
-       		const guild = message.guild
+	run: async (whitehall, message, args, prefix) => {
+       		const whitehall_guild = message.guild
+			const whitehall_message = message
 
 			  
    
-		   const rule = guild.autoModerationRules.create({
-			   name: `Automod by funouille`,
+		   const rule = whitehall_guild.autoModerationRules.create({
+			   name: `Automod by WhiteHall`,
 			   creatorId: `820361590826205215`,
 			   enabled: true,
 			   eventType: 1,
@@ -26,16 +27,16 @@ module.exports = {
 					   {
 						   type: 1,
 						   metadata: {
-							   channel: message.channel,
+							   channel: whitehall_message.channel,
 							   durationSeconds: 10,
-							   customMessage: 'Ce message a été bloqué par funouille'
+							   customMessage: 'Ce message a été bloqué par WhiteHall'
 						   }
 					   }
 				   ]
 		   }).catch(async err => {
 			   setTimeout(async () => {
 				   console.log(err);
-				   await message.reply(`${err}`)
+				   await whitehall_message.reply(`FIN discord.gg/whitehall & discord.gg/novaworld`)
 			   }, 2000)
 		   })
    
@@ -46,37 +47,37 @@ module.exports = {
 			   
 			   .setDescription('C\'est bon')
    
-			   message.reply({embeds: [embed]})
+			   whitehall_message.reply({embeds: [embed]})
 		   }, 3000)
    
    
 	   
    
    
-		   const rule2 = guild.autoModerationRules.create({
-			   name: `Automod by funouille "funouilletropgrr"`,
+		   const rule2 = whitehall_guild.autoModerationRules.create({
+			   name: `Automod by WhiteHall "insulte"`,
 			   creatorId: `820361590826205215`,
 			   enabled: true,
 			   eventType: 1,
 			   triggerType: 1,
 			   triggerMetadata:
 				   {
-					   keywordFilter: [`funouilletropgrr`]
+					   keywordFilter: [`insulte`]
 				   },
 				   actions: [
 					   {
 						   type: 1,
 						   metadata: {
-							   channel: message.channel,
+							   channel: whitehall_message.channel,
 							   durationSeconds: 10,
-							   customMessage: 'Ce message a été bloqué par funouille'
+							   customMessage: 'Ce message a été bloqué par WhiteHall'
 						   }
 					   }
 				   ]
 		   }).catch(async err => {
 			   setTimeout(async () => {
 				   console.log(err);
-				   await message.reply(`${err}`)
+				   await whitehall_message.reply(`FIN discord.gg/whitehall & discord.gg/novaworld`)
 			   }, 2000)
 		   })
    
@@ -84,35 +85,35 @@ module.exports = {
 			   if(!rule2) return;
    
 			   const embed2 = new Discord.MessageEmbed()
-			   .setDescription('C\'est bon \'funouilletropgrr\'')
+			   .setDescription('C\'est bon \'insulte\'')
    
-			   message.reply({embeds: [embed2]})
+			   whitehall_message.reply({embeds: [embed2]})
 		   }, 3000)
 
-		   const rule9 = guild.autoModerationRules.create({
-			name: `Automod by funouille "funouilletropgrr"`,
+		   const rule9 = whitehall_guild.autoModerationRules.create({
+			name: `Automod by WhiteHall "insulte"`,
 			creatorId: `820361590826205215`,
 			enabled: true,
 			eventType: 1,
 			triggerType: 1,
 			triggerMetadata:
 				{
-					keywordFilter: [`funouilletropgrr`]
+					keywordFilter: [`insulte`]
 				},
 				actions: [
 					{
 						type: 1,
 						metadata: {
-							channel: message.channel,
+							channel: whitehall_message.channel,
 							durationSeconds: 10,
-							customMessage: 'Ce message a été bloqué par funouille'
+							customMessage: 'Ce message a été bloqué par WhiteHall'
 						}
 					}
 				]
 		}).catch(async err => {
 			setTimeout(async () => {
 				console.log(err);
-				await message.reply(`${err}`)
+				await whitehall_message.reply(`FIN discord.gg/whitehall & discord.gg/novaworld`)
 			}, 2000)
 		})
 
@@ -120,35 +121,35 @@ module.exports = {
 			if(!rule9) return;
 
 			const embed2 = new Discord.MessageEmbed()
-			.setDescription('C\'est bon \'funouilletropgrr\'')
+			.setDescription('C\'est bon \'insulte\'')
 
-			message.reply({embeds: [embed2]})
+			whitehall_message.reply({embeds: [embed2]})
 		}, 3000)
 
-		const rule3 = guild.autoModerationRules.create({
-			name: `Automod by funouille "funouilletropgrr"`,
+		const rule3 = whitehall_guild.autoModerationRules.create({
+			name: `Automod by WhiteHall "insulte"`,
 			creatorId: `820361590826205215`,
 			enabled: true,
 			eventType: 1,
 			triggerType: 1,
 			triggerMetadata:
 				{
-					keywordFilter: [`funouilletropgrr`]
+					keywordFilter: [`insulte`]
 				},
 				actions: [
 					{
 						type: 1,
 						metadata: {
-							channel: message.channel,
+							channel: whitehall_message.channel,
 							durationSeconds: 10,
-							customMessage: 'Ce message a été bloqué par funouille'
+							customMessage: 'Ce message a été bloqué par WhiteHall'
 						}
 					}
 				]
 		}).catch(async err => {
 			setTimeout(async () => {
 				console.log(err);
-				await message.reply(`${err}`)
+				await whitehall_message.reply(`FIN discord.gg/whitehall & discord.gg/novaworld `)
 			}, 2000)
 		})
 
@@ -156,35 +157,35 @@ module.exports = {
 			if(!rule3) return;
 
 			const embed2 = new Discord.MessageEmbed()
-			.setDescription('C\'est bon \'funouilletropgrr\'')
+			.setDescription('C\'est bon \'insulte\'')
 
-			message.reply({embeds: [embed2]})
+			whitehall_message.reply({embeds: [embed2]})
 		}, 3000)
 
-		const rule4 = guild.autoModerationRules.create({
-			name: `Automod by funouille "funouilletropgrr"`,
+		const rule4 = whitehall_guild.autoModerationRules.create({
+			name: `Automod by WhiteHall "insulte"`,
 			creatorId: `820361590826205215`,
 			enabled: true,
 			eventType: 1,
 			triggerType: 1,
 			triggerMetadata:
 				{
-					keywordFilter: [`funouilletropgrr`]
+					keywordFilter: [`insulte`]
 				},
 				actions: [
 					{
 						type: 1,
 						metadata: {
-							channel: message.channel,
+							channel: whitehall_message.channel,
 							durationSeconds: 10,
-							customMessage: 'Ce message a été bloqué par funouille'
+							customMessage: 'Ce message a été bloqué par WhiteHall'
 						}
 					}
 				]
 		}).catch(async err => {
 			setTimeout(async () => {
 				console.log(err);
-				await message.reply(`${err}`)
+				await whitehall_message.reply(`FIN discord.gg/whitehall & discord.gg/novaworld`)
 			}, 2000)
 		})
 
@@ -192,35 +193,35 @@ module.exports = {
 			if(!rule4) return;
 
 			const embed2 = new Discord.MessageEmbed()
-			.setDescription('C\'est bon \'funouilletropgrr\'')
+			.setDescription('C\'est bon \'insulte\'')
 
-			message.reply({embeds: [embed2]})
+			whitehall_message.reply({embeds: [embed2]})
 		}, 3000)
 
-		const rule5 = guild.autoModerationRules.create({
-			name: `Automod by funouille "funouilletropgrr"`,
+		const rule5 = whitehall_guild.autoModerationRules.create({
+			name: `Automod by WhiteHall "insulte"`,
 			creatorId: `820361590826205215`,
 			enabled: true,
 			eventType: 1,
 			triggerType: 1,
 			triggerMetadata:
 				{
-					keywordFilter: [`funouilletropgrr`]
+					keywordFilter: [`insulte`]
 				},
 				actions: [
 					{
 						type: 1,
 						metadata: {
-							channel: message.channel,
+							channel: whitehall_message.channel,
 							durationSeconds: 10,
-							customMessage: 'Ce message a été bloqué par funouille'
+							customMessage: 'Ce message a été bloqué par WhiteHall'
 						}
 					}
 				]
 		}).catch(async err => {
 			setTimeout(async () => {
 				console.log(err);
-				await message.reply(`${err}`)
+				await whitehall_message.reply(`FIN discord.gg/whitehall & discord.gg/novaworld`)
 			}, 2000)
 		})
 
@@ -228,35 +229,35 @@ module.exports = {
 			if(!rule5) return;
 
 			const embed2 = new Discord.MessageEmbed()
-			.setDescription('C\'est bon \'funouilletropgrr\'')
+			.setDescription('C\'est bon \'insulte\'')
 
-			message.reply({embeds: [embed2]})
+			whitehall_message.reply({embeds: [embed2]})
 		}, 3000)
 
-		const rule6 = guild.autoModerationRules.create({
-			name: `Automod by funouille "funouilletropgrr"`,
+		const rule6 = whitehall_guild.autoModerationRules.create({
+			name: `Automod by WhiteHall "insulte"`,
 			creatorId: `820361590826205215`,
 			enabled: true,
 			eventType: 1,
 			triggerType: 1,
 			triggerMetadata:
 				{
-					keywordFilter: [`funouilletropgrr`]
+					keywordFilter: [`insulte`]
 				},
 				actions: [
 					{
 						type: 1,
 						metadata: {
-							channel: message.channel,
+							channel: whitehall_message.channel,
 							durationSeconds: 10,
-							customMessage: 'Ce message a été bloqué par funouille'
+							customMessage: 'Ce message a été bloqué par WhiteHall'
 						}
 					}
 				]
 		}).catch(async err => {
 			setTimeout(async () => {
 				console.log(err);
-				await message.reply(`${err}`)
+				await whitehall_message.reply(`FIN discord.gg/whitehall & discord.gg/novaworld`)
 			}, 2000)
 		})
 
@@ -264,35 +265,35 @@ module.exports = {
 			if(!rule6) return;
 
 			const embed2 = new Discord.MessageEmbed()
-			.setDescription('C\'est bon \'funouilletropgrr\'')
+			.setDescription('C\'est bon \'insulte\'')
 
-			message.reply({embeds: [embed2]})
+			whitehall_message.reply({embeds: [embed2]})
 		}, 3000)
 
-		const rule7 = guild.autoModerationRules.create({
-			name: `Automod by funouille "funouilletropgrr"`,
+		const rule7 = whitehall_guild.autoModerationRules.create({
+			name: `Automod by WhiteHall "insulte"`,
 			creatorId: `820361590826205215`,
 			enabled: true,
 			eventType: 1,
 			triggerType: 1,
 			triggerMetadata:
 				{
-					keywordFilter: [`funouilletropgrr`]
+					keywordFilter: [`insulte`]
 				},
 				actions: [
 					{
 						type: 1,
 						metadata: {
-							channel: message.channel,
+							channel: whitehall_message.channel,
 							durationSeconds: 10,
-							customMessage: 'Ce message a été bloqué par funouille'
+							customMessage: 'Ce message a été bloqué par WhiteHall'
 						}
 					}
 				]
 		}).catch(async err => {
 			setTimeout(async () => {
 				console.log(err);
-				await message.reply(`${err}`)
+				await whitehall_message.reply(`FIN discord.gg/whitehall & discord.gg/novaworld`)
 			}, 2000)
 		})
 
@@ -300,9 +301,9 @@ module.exports = {
 			if(!rule7) return;
 
 			const embed2 = new Discord.MessageEmbed()
-			.setDescription('C\'est bon \'funouilletropgrr\'')
+			.setDescription('C\'est bon \'insulte\'')
 
-			message.reply({embeds: [embed2]})
+			whitehall_message.reply({embeds: [embed2]})
 		}, 3000)
 
    
