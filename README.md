@@ -35,7 +35,7 @@ If you want to change the config, open up [config.json](https://discord.gg/novaw
 ```js
 {
     "prefix": "!",
-    "Funny": {
+    "whitehall": {
         "TOKEN": "Put-Token-Here", 
         "ID": "Id-Bot" 
     }
