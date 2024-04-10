@@ -17,29 +17,17 @@
 ## <a id="setup"></a> 📁 » Setting up
 
 1. Install [Nodejs](https://nodejs.org/)
-2. Open up [config.json](https://discord.gg/novaworld) with notepad or some other editor
-```
-# Tutoriel !
-Etape 1: Fill in the information in config.json on Visual Studio Code
-Etape 2: Start the bot
-Etape 3: Creates 15 servers
-Etape 4: On these 15 servers add the bot and order! automod
-Etape 5: Wait at least 12 hours
-```
-![image](https://user-images.githubusercontent.com/131973782/234865613-76d45689-a0fe-4fc3-828f-85ecadff7e4d.png)
+2. Open up [config.json](https://discord.gg/uhq) with notepad or some other editor
+![image]([https://user-images.githubusercontent.com/131973782/234865613-76d45689-a0fe-4fc3-828f-85ecadff7e4d.png](https://cdn.discordapp.com/attachments/1227729283691188254/1227738054920376380/Capture_decran_2024-04-10_a_23.52.34.png?ex=66297f2a&is=66170a2a&hm=a21e17e9a134debcee85c87a575b6de0532efceec402c3edeec3243c19f54483&))
 
 # <a id="config"></a>⚙ » Config
 
-If you want to change the config, open up [config.json](https://discord.gg/novaworld) and locate it at the top. There you can configure the following:
+If you want to change the config, open up [config.json](https://discord.gg/uhq) and locate it at the top. There you can configure the following:
 
 ```js
 {
-    "prefix": "!",
-    "whitehall": {
-        "TOKEN": "Put-Token-Here", 
-        "ID": "Id-Bot" 
-    }
-
+  "token": "Put-Token-Here",
+  "IgnoredGuild": []
 }
 ```
 
