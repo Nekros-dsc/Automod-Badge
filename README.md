@@ -18,7 +18,7 @@
 
 1. Install [Nodejs](https://nodejs.org/)
 2. Open up [config.json](https://discord.gg/uhq) with notepad or some other editor
-![image]([https://cdn.discordapp.com/attachments/1227729283691188254/1227748828980183100/Automod-Badge-Bot.png]
+![image]([https://cdn.discordapp.com/attachments/1227729283691188254/1227748828980183100/Automod-Badge-Bot.png])
 
 # <a id="config"></a>⚙ » Config
 
