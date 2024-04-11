@@ -1,34 +1,39 @@
 <h1 align="center">
- 🌿Automod Badge ⚙
+ 🛡️ 〢 AutoMod Badge Bot
 </h1>
 
 ---
-## <a id="menu"></a>🔱 » Menu
+## <a id="menu"></a>🍃 〢 Menu
 
-- [☄・Deploys](#deploys)
-- [🔰・Features](#features)
-- [🌌・Discord](https://discord.gg/novaworld)
-- [🎉・Setting up](#setup)
-- [⚙・Config](#config)
+- [📩・Deploy With](#deploys)
+- [⚙️・Setting up](#setup)
+- [💼・Term](#terms)
+- [🕵️‍♂️・Authors](#authors)
+- [🪄・Discord](https://discord.gg/uhq)
 
-## <a id="features"></a>🛠 » Features
+## <a id="deploys"></a>📩 〢 Deploys
+[![Deploy](https://raw.githubusercontent.com/Nekros-dsc/deploy-buttons/main/buttons/remade/replit.svg)](https://replit.com/github/Nekros-dsc/Automod-Badge)
 
+[![Deploy](https://raw.githubusercontent.com/Nekros-dsc/deploy-buttons/main/buttons/remade/glitch.svg)](https://glitch.com/edit/#!/import/github/Nekros-dsc/Automod-Badge)
 
-## <a id="setup"></a> 📁 » Setting up
+[![Deploy](https://raw.githubusercontent.com/Nekros-dsc/deploy-buttons/main/buttons/remade/heroku.svg)](https://heroku.com/deploy/?template=https://github.com/Nekros-dsc/Automod-Badge)
 
-1. Install [Nodejs](https://nodejs.org/)
-2. Open up [config.json](https://discord.gg/uhq) with notepad or some other editor
-![image](https://cdn.discordapp.com/attachments/1227729283691188254/1227748828980183100/Automod-Badge-Bot.png?ex=66298933&is=66171433&hm=1aac2e3a402d4fe8ccafd566020cfd0eef9e6ad4426faeeeba6eed4402cced85&)
+[![Deploy](https://raw.githubusercontent.com/Nekros-dsc/deploy-buttons/main/buttons/remade/railway.svg)](https://railway.app/new/template?template=https://github.com/Nekros-dsc/Automod-Badge)
 
-# <a id="config"></a>⚙ » Config
+## <a id="setup"></a> 📁 〢 Setting up
 
-If you want to change the config, open up [config.json](https://discord.gg/uhq) and locate it at the top. There you can configure the following:
+1. Install [NodeJS](https://nodejs.org/)
+2. Install [Files](https://github.com/Nekros-dsc/Automod-Badge/archive/refs/heads/main.zip)
+3. Complete the configuration
+5. Enjoy the tool
 
-```js
-{
-  "token": "Put-Token-Here",
-  "IgnoredGuild": []
-}
-```
+### <a id="terms"></a>💼 〢 Terms Of Usage
+
+- [x] Educational purpose only.
+- [x] You can use the source code if you keep credits (in embed + in markdown), it has to be open-source.
+- [x] We are NOT responsible of anything you do with our software (if its illegal).
+
+### <a id="authors"></a>🕵️‍♂️ 〢 Authors
+- [Nekros](https://github.com/Nekros-dsc)
 
 ---
